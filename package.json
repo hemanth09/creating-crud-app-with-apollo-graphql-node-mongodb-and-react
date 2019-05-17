@@ -1,0 +1,49 @@
+{
+  "name": "creating-crud-app-with-apollo-graphql-node-mongodb-and-react",
+  "version": "1.0.0",
+  "description": "Creating a simple CRUD app with NodeJS, MongoDB, GraphQL, React and Apollo",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js --ignore client"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.5.1",
+    "apollo-client": "^2.5.1",
+    "apollo-link-http": "^1.5.14",
+    "axios": "^0.15.3",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.16.0",
+    "connect-mongo": "^1.3.2",
+    "css-loader": "^0.26.1",
+    "express": "^4.16.4",
+    "express-graphql": "^0.8.0",
+    "express-session": "^1.15.0",
+    "graphql": "^14.3.0",
+    "graphql-tag": "^2.10.1",
+    "html-webpack-plugin": "^2.26.0",
+    "lodash": "^4.17.4",
+    "mongoose": "^5.5.7",
+    "nodemon": "*",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "react": "^16.8.6",
+    "react-apollo": "^2.5.5",
+    "react-dom": "^16.8.6",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.0",
+    "webpack-dev-middleware": "^1.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0"
+  }
+}

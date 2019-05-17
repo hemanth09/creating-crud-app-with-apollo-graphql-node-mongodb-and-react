@@ -1,0 +1,46 @@
+#root {
+    max-width: 1244px;
+    margin: auto;
+}
+.headline {
+    text-align: center
+}
+.collection-item {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.material-icons {
+    cursor: pointer;
+    margin-right: 5px;
+}
+  
+.vote-box {
+    display: flex;
+    align-items: center;
+}
+
+label {
+    color: red
+}
+
+@media only screen and (max-width: 1280px) {
+    #root {
+        max-width: 980px;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #root {
+        max-width: 760px;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #root {
+        max-width: 460px;
+        margin: auto;
+    }
+}

@@ -1,0 +1,2 @@
+require('./album');
+require('./song');
