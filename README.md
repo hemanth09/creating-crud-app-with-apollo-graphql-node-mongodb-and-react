@@ -29,8 +29,8 @@ Run it using:
 ```bash
 npm run dev
 ```
-And in browser App will running on http://localhost:4000/
-And Graphql server will be running on http://localhost:4000/graphql
+- And in browser App will running on http://localhost:4000/
+- And Graphql server will be running on http://localhost:4000/graphql
 
 ### Project Structure
 
@@ -52,16 +52,15 @@ And Graphql server will be running on http://localhost:4000/graphql
 **models** - This folder contains mongoose **album** and **song** schema model that represents set of information's for album and song records in database.
 
 **schema** - And Finally this schema folder contains the most of the GraphQL logic. The schema/schema.js takes all the types and mutations
-    - **GraphQL Types** : We need to design GraphQL user schema to specify the types for API using GraphQL schema language. Inside we got **album_type.js** and **song_type.js** of types that define user schema.
-    - **GraphQL Queries** : Inside schema/root_query_type.js file write a very simple GraphQl query and mongoose query used inside to retrieve albums/songs list of data from mongodb database.
-    - **GraphQL Mutation**: Inside **mutations.js** file we create 4 methods addAlbum, addSong, likeSong and deleteAlbum. add methods creates new album/songs, like method updates the number of likes, delete method deletes the record.
+- **GraphQL Types** : We need to design GraphQL user schema to specify the types for API using GraphQL schema language. Inside we got **album_type.js** and **song_type.js** of types that define user schema.
+- **GraphQL Queries** : Inside schema/root_query_type.js file write a very simple GraphQl query and mongoose query used inside to retrieve albums/songs list of data from mongodb database.
+- **GraphQL Mutation**: Inside **mutations.js** file we create 4 methods addAlbum, addSong, likeSong and deleteAlbum. add methods creates new album/songs, like method updates the number of likes, delete method deletes the record.
 
 #### Client directory
 [http://localhost:4000](http://localhost:4000)
 
 **index.js** - Here we create a Apollo Client to establish connection to our GraphQL Server API, And Routing with React
+
 **queries** - Here we define Apollo GraphQL queries by using `graphql-tag`. Graphql Tag is a JavaScript template literal tag that parses GraphQL queries.
+
 **components** - Component folder consist of files responsible for creating albums/songs, likes and deleting the album. we used `react-apollo` to connect our components and pass our **mutations** and **queries** defined using `graphql-tag`
-
-
-
